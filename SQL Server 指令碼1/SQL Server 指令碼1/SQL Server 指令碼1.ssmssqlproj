@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Server 指令碼1">
+  <Items>
+    <LogicalFolder Name="連線" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="C501A116:C501A116\user">
+          <Created>2025-05-09T15:34:22.541008+08:00</Created>
+          <Type>SQL</Type>
+          <Server>C501A116</Server>
+          <UserName />
+          <Authentication>Windows 驗證</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - 查詢</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="查詢" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01SELECT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01SELECT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02Select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02Select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05Select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05Select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06Select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06Select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07try.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07try.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="其他" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
