@@ -3,7 +3,22 @@
   <Items>
     <LogicalFolder Name="連線" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="TEACHER:Teacher\user">
+        <ConnectionNode Name="C501A116:C501A116\user">
+          <Created>2025-05-26T13:45:08.7559039+08:00</Created>
+          <Type>SQL</Type>
+          <Server>C501A116</Server>
+          <UserName />
+          <Authentication>Windows 驗證</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - 查詢</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="TEACHER:C501A116\user">
           <Created>2025-05-09T15:34:20.9482108+08:00</Created>
           <Type>SQL</Type>
           <Server>TEACHER</Server>
@@ -29,8 +44,8 @@
           <FullPath>01Select.sql</FullPath>
         </FileNode>
         <FileNode Name="02Select.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEACHER:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>TEACHER</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>02Select.sql</FullPath>
         </FileNode>
@@ -59,10 +74,52 @@
           <FullPath>06Select.sql</FullPath>
         </FileNode>
         <FileNode Name="07Practice.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEACHER:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>TEACHER</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>07Practice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08Select_Join.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08Select_Join.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09Select_Join.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09Select_Join.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10Select_Join.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10Select_Join.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery4.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery4.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
