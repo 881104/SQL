@@ -97,9 +97,21 @@
           <AssociatedConnUserName />
           <FullPath>10Select_Join.sql</FullPath>
         </FileNode>
+        <FileNode Name="11Select_OuterJoin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11Select_OuterJoin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12DataType.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12DataType.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery1.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery1.sql</FullPath>
         </FileNode>
