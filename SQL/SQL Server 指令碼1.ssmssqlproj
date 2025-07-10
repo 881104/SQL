@@ -3,7 +3,22 @@
   <Items>
     <LogicalFolder Name="連線" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="TEACHER:Teacher\user">
+        <ConnectionNode Name="C501A116:C501A116\user">
+          <Created>2025-07-04T13:19:23.4735512+08:00</Created>
+          <Type>SQL</Type>
+          <Server>C501A116</Server>
+          <UserName />
+          <Authentication>Windows 驗證</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - 查詢</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="TEACHER:C501A116\user">
           <Created>2025-05-09T15:34:20.9482108+08:00</Created>
           <Type>SQL</Type>
           <Server>TEACHER</Server>
@@ -53,20 +68,20 @@
           <FullPath>05Select.sql</FullPath>
         </FileNode>
         <FileNode Name="06Select.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEACHER:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>TEACHER</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>06Select.sql</FullPath>
         </FileNode>
         <FileNode Name="07Practice.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEACHER:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>TEACHER</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>07Practice.sql</FullPath>
         </FileNode>
         <FileNode Name="08Select_Join.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEACHER:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>TEACHER</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>08Select_Join.sql</FullPath>
         </FileNode>
@@ -131,20 +146,20 @@
           <FullPath>18Delete.sql</FullPath>
         </FileNode>
         <FileNode Name="19增刪條的問題探討.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEACHER:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>TEACHER</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>19增刪條的問題探討.sql</FullPath>
         </FileNode>
         <FileNode Name="20DDL_CreateDB.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEACHER:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>TEACHER</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>20DDL_CreateDB.sql</FullPath>
         </FileNode>
         <FileNode Name="21DDL_create.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEACHER:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>TEACHER</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>21DDL_create.sql</FullPath>
         </FileNode>
@@ -179,28 +194,34 @@
           <FullPath>26T-SQL.sql</FullPath>
         </FileNode>
         <FileNode Name="27T-SQL.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEACHER:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>TEACHER</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>27T-SQL.sql</FullPath>
         </FileNode>
         <FileNode Name="28Function.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEACHER:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>TEACHER</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>28Function.sql</FullPath>
         </FileNode>
         <FileNode Name="29Function.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEACHER:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>TEACHER</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>29Function.sql</FullPath>
         </FileNode>
         <FileNode Name="30Function.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEACHER:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>TEACHER</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>30Function.sql</FullPath>
+        </FileNode>
+        <FileNode Name="32Stored Procedure.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A116:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A116</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>32Stored Procedure.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
